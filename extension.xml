@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>str_replace</name>
+        <version>1.0.1</version>
+        <copyright>Copyright (C) 1998 - 2026 7x and 2005 Alexandre Abric</copyright>
+        <license>GNU General Public License v2.0 (or any later version)</license>
+        <info_url>https://github.com/se7enxweb/str_replace</info_url>
+        <description>The ezstr_replace template operator: PHP's str_replace() in templates.</description>
+    </metadata>
+</software>

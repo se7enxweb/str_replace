@@ -3,11 +3,21 @@
 class MyStrReplaceOperator
 {
     /*!
-     Constructor
+     Constructor. PHP 7 deprecated, and PHP 8 removed, constructors named after
+     their class: without __construct() the operator list stayed empty and the
+     template engine reported "Object problem with operator".
+    */
+    function __construct()
+    {
+        $this->Operators = array( 'ezstr_replace' );
+    }
+
+    /*!
+     The old constructor name, kept for code that called it directly.
     */
     function MyStrReplaceOperator()
     {
-        $this->Operators = array( 'ezstr_replace');
+        self::__construct();
     }
 
     /*!
